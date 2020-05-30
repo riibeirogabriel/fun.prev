@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>fun.prev</title>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"> </script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <body>
+    <h1>Quiz</h1>
+        {% for question in quiz %}
+        
+            <h2>{{ question.ask }}</a></h2>
+            <li>
+                <h3>{{ question.answer_one }}</h3>
+                <h3>{{ question.answer_two }}</h3>
+                <h3>{{ question.answer_three }}</h3>
+                <h3>{{ question.answer_four }}</h3>
+                <h3> Resposta : {{ question.true_answer }}</h3>
+            </li>
+        
+        {% endfor %}
+    
+  </body>
+</html>
