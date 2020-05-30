@@ -27,4 +27,4 @@ def quiz_list(request):
                 )
 
     quiz = Quiz.objects.all()
-    return render(request, "quiz.html", {"quiz": quiz}, {"title": "Quiz"})
+    return render(request, "quiz.html", {"title": 'Quizzes', "quiz": quiz})
