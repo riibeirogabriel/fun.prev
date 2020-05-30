@@ -1,0 +1,75 @@
+{
+    "asks": [
+        {
+            "ask": "O que é previdência?", 
+            "answer_one":  "Proteção adquirida no presente. Garantia de um futuro de qualidade. Diminuição da jornada de trabalho no futuro.",
+            "answer_two": "Seguro contra acidentes inesperados fornecido pelo Estado á seus cidadãos.",
+            "answer_three": "Contribuição obrigatória realizada por todo tempo de vida.",
+            "answer_four": "Fundo de garantia do trabalhador social.",
+            "true_answer": 1
+        },
+        {
+            "ask": "Qual a importância da previdência?", 
+            "answer_one": "Prevenção contra acidentes inesperados no trânsito.",
+            "answer_two": "Formação de riqueza no longo prazo. Contribuição adicional na aposentadoria. Segurança na ocorrência de eventos inesperados.",
+            "answer_three": "Reduzir a alíquota no imposto de renda.",
+            "answer_four": "Enriquecimento do Estado brasileiro através das contribuições excedentes.",
+            "true_answer": 2
+        },
+        {
+            "ask": "Qual a idade ideal para pensar em previdência?" , 
+            "answer_one": "Após consolidação na carreira profissional.",
+            "answer_two": "Por volta dos 30 anos de idade.",
+            "answer_three": "Desde o momento que entrar no mercado de trabalho, quanto antes começar, mais fáceis serão seus objetivos.",
+            "answer_four": "Por volta dos 20 anos de idade.",
+            "true_answer": 3
+        },
+        {
+            "ask": "O que é previdência geral?", 
+            "answer_one": "Seguro para acidentes no trânsito.",
+            "answer_two": "Sistema de previdência em que os que contribuem menos recebem mais.",
+            "answer_three": "Modalidade de previdência oferecida por bancos.",
+            "answer_four": "Aposentadoria fornecida pelo governo com um teto máximo.",
+            "true_answer": 4
+        },
+        {
+            "ask": "O que é previdência aberta?", 
+            "answer_one": "Aposentadoria fornecida por bancos e seguradoras com fins lucrativos.",
+            "answer_two": "Aposentadoria fornecida pelo governo com um teto máximo.",
+            "answer_three": "Aposentadoria fornecida por empresas, associações e sindicatos sem fins lucrativos, maximizando o bem estar do beneficiário final.",
+            "answer_four": "Contribuição obrigatória realizada por todo tempo de vida.",
+            "true_answer": 1
+        },
+        {
+            "ask": "O que é previdência fechada?", 
+            "answer_one": "Aposentadoria fornecida pelo governo com um teto máximo.",
+            "answer_two": "Aposentadoria fornecida por empresas, associações e sindicatos sem fins lucrativos, maximizando o bem estar do beneficiário final.",
+            "answer_three": "Aposentadoria fornecida por bancos e seguradoras com fins lucrativos.",
+            "answer_four": "Contribuição obrigatória realizada por todo tempo de vida.",
+            "true_answer": 2
+        },
+        {
+            "ask": "Porque devo me preocupar com uma previdência fechada?", 
+            "answer_one": "Para não depender de empresas privadas.",
+            "answer_two": "Para o fortalecimento da previdência aberta.",
+            "answer_three": "Para não precisar diminuir a qualidade de vida, e sim poder aproveita-lá de forma mais fun.",
+            "answer_four": "Para ser parte de uma nova fidelização de clientes.",
+            "true_answer": 3
+        },
+        {
+            "ask": "Quais as vantagens da previdência fechada?", 
+            "answer_one": "Proteção de crédito ao consumidor.",
+            "answer_two": "Inseção de imposto sobre bens e comércio.",
+            "answer_three": "Enriquecimento do Estado brasileiro.",
+            "answer_four": "Você pode colocar seus familiares. Por ser sem fins lucrativos, a taxa administrativa é bastante reduzida. O dinheiro é gerido por profissionais qualificados. O participante tem acesso fácil e rápido sobre seus recursos.",
+            "true_answer": 4
+        },
+        {
+            "ask": "Como posso adquirir?", 
+            "answer_one": "Através de sua empresa, associações e sindicatos.",
+            "answer_two": "Através do Instituto Nacional de Serviço Social.",
+            "answer_four": "Pelas agências da caixa.",
+            "true_answer": 1
+        }
+    ] 
+}
