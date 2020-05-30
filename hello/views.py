@@ -7,7 +7,7 @@ from django.conf import settings
 
 
 def index(request):
-    return render(request, "home.html")
+    return render(request, "landing.html")
 
 
 def quiz_list(request):
