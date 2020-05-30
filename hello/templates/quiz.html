@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 <h1>Quiz</h1>
-{% for question in quiz %}
+{% for question in quiz.object_list %}
 
   <h2>{{ question.ask }}</h2>
   <li>
@@ -11,6 +11,22 @@
       <h3>{{ question.answer_four }}</h3>
       <h3> Resposta : {{ question.true_answer }}</h3>
   </li>
+
+  <div class="pagination">
+    <span class="step-links">
+        {% if quiz.has_previous %}
+            <a href="?page={{ quiz.previous_page_number }}">anterior</a>
+        {% endif %}
+
+        <span class="current">
+            Página {{ quiz.number }} of {{ quiz.paginator.num_pages }}.
+        </span>
+
+        {% if quiz.has_next %}
+            <a href="?page={{ quiz.next_page_number }}">próxima</a>
+        {% endif %}
+    </span>
+</div>
 
 {% endfor %}
 {% endblock content %}
