@@ -19,4 +19,3 @@ class Quiz(models.Model):
     answer_three = models.CharField(max_length=field_length)
     answer_four = models.CharField(max_length=field_length)
     true_answer = models.IntegerField()
-
