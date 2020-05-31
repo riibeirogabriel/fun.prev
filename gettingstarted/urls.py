@@ -1,11 +1,10 @@
 from django.urls import path, include
-from hello.views import ChatterBotAppView, ChatterBotApiView
+
 from django.contrib import admin
-from django.conf.urls import url
-import hello.views
 
 admin.autodiscover()
 
+import hello.views
 
 # To add a new path, first import the app:
 # import blog
@@ -17,8 +16,5 @@ admin.autodiscover()
 
 urlpatterns = [
     path("", hello.views.index, name="index"),
-    path('quiz/', hello.views.quiz_list, name='questions-quiz'),
-    url(r'^$', ChatterBotAppView.as_view(), name='main'),
-    url(r'^admin/', admin.site.urls, name='admin'),
-    url(r'^api/chatterbot/', ChatterBotApiView.as_view(), name='chatterbot'),
+    path('quiz/', hello.views.quiz_list, name='questions-quiz')
 ]
