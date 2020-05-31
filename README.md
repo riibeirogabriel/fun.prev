@@ -32,3 +32,5 @@ Plataforma Mobile e Web de Educação Previdenciária Gamificada, interativa e d
 * Priscila Araújo - UX/UI Designer
 * Léo David Cunha - Business / PO
 
+## 🗒 Licença
+Este projeto possui licença GPL, contida no arquivo  [LICENSE](/LICENSE.gpl).
