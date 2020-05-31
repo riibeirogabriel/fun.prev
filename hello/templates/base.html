@@ -10,15 +10,6 @@
   {% endif %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" 
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" 
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" 
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" 
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link 
     href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" 
     rel="stylesheet"
@@ -30,13 +21,12 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
     crossorigin="anonymous"
   >
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="shortcut icon" href="{% static 'img/Favicon.png' %}" type="image/png">
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md">
+  <nav class="navbar navbar-expand-md bg-white">
     <a class="navbar-brand" href="#"><img src="{% static 'img/logo_menu_header.png' %}" alt=""></a>
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -84,9 +74,14 @@
     src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"
   >
   </script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
+  <script type="text/javascript">
+    window.be = window.be || {};
+    window.__be.id = "5ed40f2964c2a50007bed24c";
+    (function() {
+        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();
   </script>
 </body>
 
