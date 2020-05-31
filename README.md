@@ -20,6 +20,7 @@
 * Django
 * Heroku
 * Python
+* sqlite
 
 ## 🧐 Sobre
 Plataforma Mobile e Web de Educação Previdenciária Gamificada, interativa e divertida para os usuários (B2C), e para as empresas administradoras de recursos de Previdência Complementar Fechada (B2B). Oferecemos um Dashboard para Gerenciamento e Análise de dados dos prospectos e trabalharemos como um suporte de Customer Experience (CX) no pós-adesão, com um conjunto de estratégias, trabalhando a mentalidade, práticas e ações voltadas para o sucesso cliente, baseando-se na Economia Comportamental.
