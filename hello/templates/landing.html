@@ -2,70 +2,34 @@
 {% load static %}
 {% block content %}
   <!-- Section 1 -->
-  <section class="sct-1">
-    <div class="content">
-      <h1 class="title">
-        Previdência de <br> 
-        um <span style="color: #58CC04;">jeito fácil</span> <br>
-        <span>
-          e <span style="color: #FFCC00;">divertido.</span>
-        </span> 
-      </h1>
-      <p class="desc"> <span>Aprenda, tire dúvidas, crie objetivos</span>  e <br> 
-        forme seu patrimônio de um jeito <br> 
-        descomplicado e divertido. 
-      </p>
-    </div>
-    <div class="bg-sct-1" 
-      style="background: url({% static 'img/sct-1.png' %}) no-repeat right top fixed"></div>
-  </section>
-  <!-- Section 2 -->
-  <section class="bg-sct-2" style="background: url({% static 'img/sct-2.png' %})">
-    <div class="sct-row">
-        <div>
-          <img src="{% static 'img/balao3.png' %}" alt="">
-          <h2 class="title-2"><br> bons motivos para <br> você ter um fundo de <br> 
-            <span style="color: #FFCC00;">previdência privada.</span>
-          </h2>
-        </div>
-        <div>
-          <img src="{% static 'img/pig_cash.png' %}" alt="">
-        </div>
+  <section>
+    <div class="sct-1-row">
+      <div class="content">
+        <h1 class="title">
+          Previdência de <br> 
+          um <span style="color: #58CC04;">jeito fácil</span> <br>
+          <span>
+            e <span style="color: #FFCC00;">divertido.</span>
+          </span> 
+        </h1>
+        <p class="desc"> <span>Aprenda, tire dúvidas, crie objetivos</span>  e <br> 
+          forme seu patrimônio de um jeito <br> 
+          descomplicado e divertido. 
+        </p>
       </div>
-    </div>
-    
-    <!-- Start of ChatBot (www.chatbot.com) code -->
-<script type="text/javascript">
-  window.__be = window.__be || {};
-  window.__be.id = "5ed40f2964c2a50007bed24c";
-  (function() {
-      var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
-      be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
-  })();
-</script>
-<!-- End of ChatBot code -->
-    <div class="cards-list">
-      <div class="card">
-        <img class="card-img-top" src="{% static 'img/card.png' %}" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Estabelecendo objetivos de curto, médio e longo prazo você adquire</p>
-          <h5 class="card-title">estabilidade financeira</h5>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="{% static 'img/card.png' %}" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Com a formação de poupança no longo prazo você consegue manter sua</p>
-          <h5 class="card-title">qualidade de vida</h5>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="{% static 'img/card.png' %}" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Se acidentou no trabalho? Você possui</p>
-          <h5 class="card-title">PROTEÇÃO CONTRA INVALIDEZ </h5>
-      </div>
+      <div class="bg-sct-1" style="background: url({% static 'img/sct-1.png' %}) no-repeat right top fixed"></div>
     </div>
   </section>
+
+  <!-- Start of ChatBot (www.chatbot.com) code -->
+  <script type="text/javascript">
+    window.__be = window.__be || {};
+    window.__be.id = "5ed40f2964c2a50007bed24c";
+    (function() {
+        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();
+  </script>
+  <!-- End of ChatBot code -->
 {% endblock content %}
