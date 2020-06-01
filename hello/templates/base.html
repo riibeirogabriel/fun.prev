@@ -27,31 +27,49 @@
 
 <body>
   <nav class="navbar navbar-expand-md bg-white">
-    <a class="navbar-brand" href="#"><img src="{% static 'img/logo_menu_header.png' %}" alt=""></a>
+    <a class="navbar-brand" href="{% url 'index' %}"><img src="{% static 'img/logo_menu_header.png' %}" alt=""></a>
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
         aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" style="background-image: url({% static 'img/menu.png' %})"></span>
+      <span class="navbar-toggler-icon" style="background: url({% static 'img/menu.png' %}); width: 78px; height: 24px"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavId">
       <ul class="navbar-nav ml-auto mt-2">
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre</a>
+          <a class="nav-link" target="_blank" href="https://github.com/riibeirogabriel/fun.prev">Sobre</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Vantagens</a>
+          <a class="nav-link" href="#vantagens">Vantagens</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contato</a>
+          <a class="nav-link" target="_blank" href="mailto:hackaprev@gmail.com">Contato</a>
         </li>
-        <button type="button" class="btn btn-outline-success">
+        <button type="button" class="btn btn-outline-success" 
+          data-toggle="modal" data-target="#exampleModal">
           Área do Cliente
           <span class="material-icons">
-            person
+            person  
           </span>
         </button>
       </ul>
     </div>
   </nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Seja Bem-Vindo ao FunPrev!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          O FunPrev ainda está passando por mudanças, mas já já tem novidade!
+        </div>
+      </div>
+    </div>
+  </div>
 
   {% block content %}{% endblock %}
 
