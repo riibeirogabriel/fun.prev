@@ -67,7 +67,7 @@ section {
 
 .bg-sct-2 {
   width: 100%;
-  height: 150vh;
+  height: 140vh;
 }
 
 .content {
@@ -103,8 +103,7 @@ section {
 
 @media only screen and (max-width: 1280px) {
   .bg-sct-2 {
-    width: 86%;
-    height: auto;
+    height: 80vh;
   }
 }
 
@@ -119,17 +118,29 @@ section {
     align-items: center;
     justify-content: space-evenly;
   }
+
+  .bg-sct-2 {
+    height: 90vh;
+  }
 }
 
 @media only screen and (max-width: 769px) {
   .title {
     font-size: 48px;
   }
+
+  .bg-sct-2 {
+    height: 80vh;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .title {
     font-size: 36px;
+  }
+
+  .bg-sct-2 {
+    height: 65vh;
   }
 }
 
